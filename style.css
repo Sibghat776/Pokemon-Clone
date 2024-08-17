@@ -105,8 +105,8 @@ body{
     z-index: -2;
 }
 .cards{
-    margin-top: 100px;
     display: grid;
+<<<<<<< HEAD
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
 }
@@ -171,3 +171,8 @@ body{
 .content h3 {
     line-height: 20px;
 } 
+=======
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+>>>>>>> 7c4576ee7c5bfb28dae633529bc2ec7e06aae70a
