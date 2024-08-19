@@ -93,16 +93,17 @@ body{
     width: 30px;
     height: 150cqmax;
     position: absolute;
-    left: 0;
     z-index: -2;
+    left: 0;
+
 }
 .right-side{
     background-color: rgba(0, 0, 0, 80%);
     width: 30px;
     height: 150cqmax;
     position: absolute;
-    right: 0;
     z-index: -2;
+    right: 0;
 }
 .cards{
     display: grid;
@@ -171,3 +172,33 @@ body{
 .content h3 {
     line-height: 20px;
 } 
+.last-part{
+    background-color: #1f1f1f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 590px;
+    margin-top: 80px;
+    color: white;
+    position: relative;
+}
+.sign-up{
+    width: 410px;
+    height: 230px;
+    line-height: 50px;
+    position: absolute;
+    left: 100px;
+    top: 50px;
+}
+#email{
+    width: 400px;
+}
+.last-part input, select{
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.last-part > input:active{
+    border: 2px solid blue;
+}
