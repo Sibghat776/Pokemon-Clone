@@ -187,7 +187,7 @@ body{
     height: 230px;
     line-height: 50px;
     position: absolute;
-    left: 100px;
+    left: 200px;
     top: 50px;
 }
 #email{
@@ -201,4 +201,58 @@ body{
 }
 .last-part > input:active{
     border: 2px solid blue;
+}
+#btninput{
+    padding: 20px 30px 30px 30px;
+    text-align: center;
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
+.side{
+    position: absolute;
+    top: 100px;
+    right: 200px;
+    font-size: 1.1rem;
+}
+.fulllast{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 200px;
+    margin-top: 280px;
+}
+.company{
+    border-right: 3px solid black;
+    padding-right: 25px;
+}
+.company ul li{
+    list-style: none;
+    line-height: 25px;
+}
+.company h2{
+    margin-bottom: 30px;
+}
+.imgsocialmedia img{
+    position: relative;
+    top: -85px;
+
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 235px;
+    padding-left: 25px;
+    border-left: 3px solid black;
+}
+.banner, ul li{
+    list-style: none;
+    font-size: 0.80rem;
+    line-height: 20px;
+    width: 300px;
+}
+.banner :nth-child(6){
+    line-height: 12px;
 }
